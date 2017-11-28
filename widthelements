@@ -1,0 +1,8 @@
+$("*").width(function(i,c){
+if(c >1349){
+console.log("el elemento numero"  + i + "tiene " + c + "pixeles" );
+this.style.paddin="0px";
+this.style.width="1349px";
+console.log(this)
+}
+})

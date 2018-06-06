@@ -4,6 +4,13 @@ var casper = require('casper').create({
         height: 1080
     }
 });
+
+// a= document.querySelectorAll('div#leftmenuinnerinner a');
+//a.forEach(function(x){console.log(x.href)});
+// b=[]
+// a.forEach(function(x){b.push(x.href)});
+
+
 var paginas = [
  'https://www.w3schools.com/php/php_ref_simplexml.asp',
  'https://www.w3schools.com/php/php_ref_string.asp',

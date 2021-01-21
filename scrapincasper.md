@@ -1,3 +1,4 @@
+~~~javascript
 var casper = require('casper').create({
 	viewportSize: {
         width: 1200,

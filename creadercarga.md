@@ -1,3 +1,4 @@
+~~~javascript
 var data = ['<a id="a"><b id="b">hey!</b></a>'];
 filename = 'h.html'
  var blob = new Blob([data], {type: 'text/json'}),
@@ -9,3 +10,4 @@ filename = 'h.html'
     a.dataset.downloadurl =  ['text/json', a.download, a.href].join(':')
     e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
     a.dispatchEvent(e)
+~~~

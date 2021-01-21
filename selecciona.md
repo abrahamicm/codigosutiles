@@ -1,3 +1,4 @@
+~~~javascript
 // http://w3.unpocodetodo.info/index.php
 $(".cheatsheet td:nth-of-type(1), .composite td:nth-of-type(1)").text(function(){this.innerHTML ="Metodo, "+this.innerHTML})
 $(".cheatsheet td:nth-of-type(2), .composite td:nth-of-type(2)").text(function(){this.innerHTML ="sentencia javascript "+this.innerHTML})

@@ -1,3 +1,4 @@
+~~~javascript
 $("*").width(function(i,c){
 if(c >1349){
 console.log("el elemento numero"  + i + "tiene " + c + "pixeles" );

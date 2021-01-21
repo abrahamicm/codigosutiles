@@ -1,3 +1,4 @@
+~~~javascript
 document.body.innerHTML="";
 menu = ["menu1",1,2,["memu2",3,4],["menu3",5,6]];
 
